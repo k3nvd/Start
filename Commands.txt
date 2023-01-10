@@ -26,7 +26,8 @@ F L O W   I N   G I T
  git mergue <branch name>           --> Unite branches
  git log --all --graph              --> See the function of branches  
  git log --all --graph --decorate --oneline              --> All the history of the project
- alias <alias name>="git log --all --graph --decorate --oneline"            =========<alias name>  
+ alias <alias name>="git log --all --graph --decorate --oneline"            =========<alias name> 
+ git show-branch                    --> branch and history
 
  G I T   H U B
 
