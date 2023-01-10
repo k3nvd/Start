@@ -1,0 +1,66 @@
+B A S I C  C O M M A N D S
+
+git init                            --> Starting the repository
+git status                          --> View project status
+git add <name of file>              --> Add files to the workspace
+git rm --cached                     --> Delete the file from the workspace
+git commit                          --> Push changes to the repository
+git commit -m "Message"             --> Push changes to the repository with Message
+cat <name of file>                  -> View file
+git log <name of file>              --> View history
+git log --stat                      --> View history with more information
+git show <name of file>             --> Changes that have been
+git diff <tag > <tag old>           --> Compare versions
+git reset <number of tag> --soft    --> It is still in the work area
+git reset <number of tag> --hard    --> To go back to a previous version --Everythings changes--Delete what was before
+git checkout <number of tag>        --> View the file before
+git checkout <branch master or main>--> Returns the lasted version of the file
+
+
+
+F L O W   I N   G I T
+
+ git branch <branch name>           --> See all branchs creates
+ git branch                         --> Create a branch
+ git checkout <branch name>         --> Move between branches
+ git mergue <branch name>           --> Unite branches
+ git log --all --graph              --> See the function of branches  
+ git log --all --graph --decorate --oneline              --> All the history of the project
+ alias <alias name>="git log --all --graph --decorate --oneline"            =========<alias name>  
+
+ G I T   H U B
+
+git remote add origin <url>                         --> Add a remote space
+git remote                                          --> See remote space
+git remote -v                                       --> Fetch, Push
+git push origin main                                --> Send
+git pull origin main                                -->Bring things from remote space to local
+git pull origin main --allow-unrelated-histories    --> Force
+
+T A G S
+
+ git tag  -a <version name > -m "Message" <tag for example 7a7373d>
+ git tag                                                                    --> List of all tags
+ git show-ref --tags                                                        --> To commit assigning
+ git push origin --tags                                                     --> Push al space remote         
+ git tag -d <tag name>                                                      --> Delete tag
+ git push origin :refs/tags/<tag name>                                      --> Delete tag from remote space            
+
+
+
+
+S S H
+
+ssh-keygen -t rsa -b 4096 -C "email"                --> To create key ssh
+eval $(ssh-agent -s)                                --> Check windows and linux
+ssh-add <Route>                                     --> Add
+git remote ser-url origin <url>                     --> Change the url
+
+
+G I T   C O N F I G U R A T I O N   F O R  Y O U R    E N V I R O N M E N T
+
+git config                              --> Git commands
+git config --list                       --> Default configuration
+git config --list --show-origin         --> Where are the settings stored?
+git config --global user.name "NAME"    --> Change your name
+git config --global user.email "EMAIL"  --> Change your email
