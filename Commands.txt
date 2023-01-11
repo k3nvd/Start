@@ -38,6 +38,10 @@ git push origin main                                --> Send
 git pull origin main                                -->Bring things from remote space to local
 git pull origin main --allow-unrelated-histories    --> Force
 
+G I T   C L O N E 
+
+git clone <url>
+
 T A G S
 
  git tag  -a <version name > -m "Message" <tag for example 7a7373d>
