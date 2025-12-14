@@ -18,7 +18,7 @@ git reset <number of tag> --hard    --> To go back to a previous version --Every
 git checkout <number of tag>        --> View the file before
 git checkout <branch master or main>--> Returns the lasted version of the file
 
-
+git diff --word-diff
 
 F L O W   I N   G I T
 
